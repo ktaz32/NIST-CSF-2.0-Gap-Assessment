@@ -375,10 +375,8 @@ NIST-CSF-2.0-Gap-Assessment/
 │   └── risk-matrix.png
 │
 ├── scripts/
-│   └── generate_visuals.py
-│
-└── data/
-    └── supporting working files
+    └── generate_visuals.py
+
 ```
 
 ---
@@ -431,6 +429,7 @@ The maturity charts and risk matrix are generated with Python rather than manual
 Run:
 
 ```bash
+pip install -r requirements.txt
 python scripts/generate_visuals.py
 ```
 
